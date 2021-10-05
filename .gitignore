@@ -1,0 +1,29 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+# JetBrains
+_ReSharper*/
+*.[Rr]e[Ss]harper
+.idea/
+*.DotSettings
+
+# NuGet Packages Directory
+## TODO: If you have NuGet Package Restore enabled, uncomment the next line
+packages/
+
+# vscode
+.vs/
+
+# NUKE.BUILD
+.nuke/temp
