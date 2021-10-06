@@ -3,7 +3,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace ConsulAppSettings
 {
-    public class ApplicationModule : Module
+    public class ConsoleHostedServiceModule : Module
     {
         protected override void Load(ContainerBuilder builder)
         {

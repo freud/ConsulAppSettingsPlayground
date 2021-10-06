@@ -34,7 +34,7 @@ namespace ConsulAppSettings
 
         private static void ConfigureAutofac(ContainerBuilder builder)
         {
-            builder.RegisterModule<ApplicationModule>();
+            builder.RegisterModule<ConsoleHostedServiceModule>();
         }
 
         private static void ConfigureService(IServiceCollection services)
