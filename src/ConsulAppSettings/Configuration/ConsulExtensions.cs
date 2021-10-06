@@ -13,7 +13,7 @@ namespace ConsulAppSettings.Configuration
             string settingsKey)
         {
             return builder.AddConsul(
-                $"{hostEnvironment.ApplicationName}/{hostEnvironment.EnvironmentName}/{settingsKey}",
+                $"Applications/{hostEnvironment.ApplicationName}/{hostEnvironment.EnvironmentName}/{settingsKey}",
                 source =>
                 {
                     var options = ConsulSettings.Build(hostEnvironment);
