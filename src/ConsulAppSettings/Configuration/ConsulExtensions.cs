@@ -16,7 +16,7 @@ namespace ConsulAppSettings.Configuration
                 $"{hostEnvironment.ApplicationName}/{hostEnvironment.EnvironmentName}/{settingsKey}",
                 source =>
                 {
-                    var options = ConsulSettings.Build();
+                    var options = ConsulSettings.Build(hostEnvironment);
                     source.ReloadOnChange = true;
                     source.Optional = hostEnvironment.IsDevelopment();
                     source.ConsulConfigurationOptions = config =>
